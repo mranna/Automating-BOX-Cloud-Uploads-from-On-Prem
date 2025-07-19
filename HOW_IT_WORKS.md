@@ -13,17 +13,19 @@
 #3. Handled "self-signed certificate" error in dev
 
     export NODE_EXTRA_CA_CERTS=<<Your CA root certificate>>  #Best practice, Assign the org's root CA.
-    Using openssl s_client = showcerts -connect api.box.com:443, save the certificate in a crt file. 
+    openssl s_client = showcerts -connect api.box.com:443    #Save the certificate in a crt file. 
 #4. Create a BOX JWT App
 
    Scopes: read/write, manage users,
    Generate: Public/Private Key
    Download: config.json
-   Authorize the Platform App.  
+   Authorize the Platform App. 
+   
 #5. Configure BOX CLI with the JWT App
 
    box configure:environments:add sandbox-env --file ~/box-cli/config.json
    box configure:environments:set sandbox-env
+
 #6. Create a folder on BOX via CLI
 
    box folders: create 0 "Test folder"
