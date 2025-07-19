@@ -35,6 +35,9 @@ I built a prototype using the **Box CLI**:
 -   0 manual intervention
 -   5+ hrs/week Stakeholder Time saved
 
+## How I did it
+https://github.com/mranna/Automating-BOX-Cloud-Uploads-from-On-Prem/blob/main/HOW_IT_WORKS.md
+
 ## Security Considerations
 - Used service account with scoped JWT permissions
 - No sensitive data stored in scripts or committed repo
