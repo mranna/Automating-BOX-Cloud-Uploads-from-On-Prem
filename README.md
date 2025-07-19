@@ -29,6 +29,7 @@ I built a prototype using the **Box CLI**:
 - ✅ Apply metadata to classify documents (InProgress)
 
 ## Architecture Overview
+[WIP]
 
 ## Success metric**
 -   95%+ upload success rate
