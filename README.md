@@ -23,10 +23,18 @@ I built a prototype using the **Box CLI**:
 
 - ✅ Created root folder and nested structure by convention.
 - ✅ Uploaded CSV files programmatically from a SQL server
-- ✅ Applied metadata to classify documents
+- ✅ Replaced files with new versions
+- ✅ Generated Shareable links
+- ✅ Schedule uploads via macOS (InProgress)
+- ✅ Apply metadata to classify documents (InProgress)
 
 ## Architecture Overview
 
-## Results
-- Success metric** | 95%+ upload success rate, 0 manual intervention
+## Success metric**
+-   95%+ upload success rate
+-   0 manual intervention
+-   5+ hrs/week Stakeholder Time saved
 
+## Security Considerations
+- Used service account with scoped JWT permissions
+- No sensitive data stored in scripts or committed repo
