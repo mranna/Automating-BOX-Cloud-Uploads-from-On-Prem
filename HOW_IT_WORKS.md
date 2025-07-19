@@ -1,4 +1,4 @@
-#Environment Setup
+Environment Setup
 
 #1. Install Node.js
 
@@ -22,19 +22,24 @@
    Authorize the Platform App. 
    
 #5. Configure BOX CLI with the JWT App
-
+```
    box configure:environments:add sandbox-env --file ~/box-cli/config.json
    box configure:environments:set sandbox-env
+```
 
 #6. Create a folder on BOX via CLI
-
+```
    box folders: create 0 "Test folder"
+```
 #7. Collaborate my admin BOX user to view the folder in the UI
-
+```
    box collaborations:create --folder <folder_id> --role editor --user-id <User ID>
+```
 #8. Upload files from local computer to BOX (Mac)
-
+```
    box files:upload ~/exports/report.csv --parent-id <folder_id>
+```
 #9. Automatically upload a new version if the file already existed
-
+```
    box files:upload-new-version ~/exports/report.csv --file-id <file_id>
+```
