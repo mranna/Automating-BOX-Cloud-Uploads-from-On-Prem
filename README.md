@@ -22,11 +22,11 @@ Through investigation and testing, I explored available Box integration tools:
 I built a prototype using the **Box CLI**:
 
 - ✅ Created root folder and nested structure by convention.
-- ✅ Uploaded PDF files programmatically from a mapped folder
+- ✅ Uploaded CSV files programmatically from a SQL server
 - ✅ Applied metadata to classify documents
 
 ## Architecture Overview
 
 ## Results
 - Success metric** | 95%+ upload success rate, 0 manual intervention
-- 
+
